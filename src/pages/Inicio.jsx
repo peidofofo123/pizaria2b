@@ -6,6 +6,7 @@ const Home = () => {
 
     return (
         <div>
+            <h2>Titulo da página</h2>
            <p>Outra tela Inicial</p>
            <img className='img-fluid' src={logo}
            alt='logo'></img>
