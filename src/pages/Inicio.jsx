@@ -1,16 +1,18 @@
-import {Link, usevigate} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import logo from '../assets/react.svg'
 import '../App.css'
-
-const Home = () => {
-
+ 
+const Inicio = () => {
+ 
     return (
         <div>
-            <h2>Titulo da página</h2>
-           <p>Outra tela Inicial</p>
-           <img className='img-fluid' src={logo}
-           alt='logo'></img>
+            <h2>Título da página</h2>
+            <p>Outra tela Inicial</p>
+            <img className='img-fluid'
+            src={logo}
+                    alt='logo' ></img>
+           
         </div>
     )
 }
-export default Home
+export default Inicio
